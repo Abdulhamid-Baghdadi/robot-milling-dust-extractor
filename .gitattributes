@@ -1,0 +1,5 @@
+*.SLDPRT binary
+*.SLDASM binary
+*.STL binary
+*.brd text eol=lf
+*.sch text eol=lf
