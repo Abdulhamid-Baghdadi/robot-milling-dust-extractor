@@ -17,20 +17,6 @@ Built for the KUKA KR 16 milling station in the Digital Factory at UAS Technikum
 
 <sub>Left: air flows from the brush-lined inlet to the hose connector. Right: the collision shield (1) mounted on two load cells (2).</sub>
 
-## In action
-
-<p align="center">
-  <img src="media/milling-comparison.gif" alt="Side-by-side: milling Styrofoam without and with the dust extractor" width="560"><br>
-  <sub>Milling Styrofoam on a test CNC, extractor off vs. on (1.6× speed). With the inlet driven down close to the cutter, a 200 W vacuum cleaner picks up both fine dust and large chips.</sub>
-</p>
-
-<p align="center">
-  <img src="media/homing.gif" alt="Extractor homing and driving to its set position" width="380">
-  <img src="media/collision-avoidance.gif" alt="Inlet stops on an obstacle before reaching its set point" width="380">
-</p>
-
-<sub>Left: after power-on the inlet drives up to the homing sensor, then moves to the set point given by the analog input. Right: an obstacle under the collision protector. The inlet stops (light contact) or backs off (hard contact) instead of reaching its set point (3× speed).</sub>
-
 ---
 
 ## The problem
