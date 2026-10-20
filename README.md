@@ -4,6 +4,22 @@ A motorised, collision-aware dust and chip extractor for robot machining cells. 
 Built for the KUKA KR 16 milling station in the Digital Factory at UAS Technikum Wien, as a solo master's project (Mechatronics/Robotics, 3rd semester, 2021/22).
 
 <p align="center">
+  <img src="media/cad-overview.jpg" alt="CAD model with numbered components" width="440">
+  <img src="media/printed-prototype.jpg" alt="3D-printed prototype" width="400">
+</p>
+
+<sub>Left: 1 exhaust tube inlet, 2 flexible brush, 3 non-captive linear actuator, 4 collision protector, 5 load cell, 6 electronics lid. Right: the printed prototype.</sub>
+
+<p align="center">
+  <img src="media/airflow-section.jpg" alt="Section view showing the air flow" width="420">
+  <img src="media/collision-protector.jpg" alt="Collision protector on two load cells" width="360">
+</p>
+
+<sub>Left: air flows from the brush-lined inlet to the hose connector. Right: the collision shield (1) mounted on two load cells (2).</sub>
+
+## In action
+
+<p align="center">
   <img src="media/milling-comparison.gif" alt="Side-by-side: milling Styrofoam without and with the dust extractor" width="560"><br>
   <sub>Milling Styrofoam on a test CNC, extractor off vs. on (1.6× speed). With the inlet driven down close to the cutter, a 200 W vacuum cleaner picks up both fine dust and large chips.</sub>
 </p>
@@ -69,20 +85,6 @@ flowchart TD
 ```
 
 ## Hardware
-
-<p align="center">
-  <img src="media/cad-overview.jpg" alt="CAD model with numbered components" width="400">
-  <img src="media/printed-prototype.jpg" alt="3D-printed prototype" width="340">
-</p>
-
-<sub>Left: 1 exhaust tube inlet, 2 flexible brush, 3 non-captive linear actuator, 4 collision protector, 5 load cell, 6 electronics lid. Right: the printed prototype.</sub>
-
-<p align="center">
-  <img src="media/airflow-section.jpg" alt="Section view showing the air flow" width="360">
-  <img src="media/collision-protector.jpg" alt="Collision protector on two load cells" width="300">
-</p>
-
-<sub>Left: air flows from the brush-lined inlet to the hose connector. Right: the collision shield (1) mounted on two load cells (2).</sub>
 
 ### Electronics
 
